@@ -99,12 +99,12 @@ async fn get_launcher_status() -> Result<LauncherStatus, reqwest::Error> {
 }
 
 // List of urls to check for
+// api-bnolauncher.bandainamco-ol.jp
 // object-bnolauncher-pf.bandainamco-ol.jp
 // datastore-main.aws.blue-protocol.com
 // masterdata-main.aws.blue-protocol.com
 // flg-main.aws.blue-protocol.com
 // g-ahpatch-prod.blue-protocol.com
-// api-bnolauncher.bandainamco-ol.jp
 
 #[tokio::main]
 async fn main() {
